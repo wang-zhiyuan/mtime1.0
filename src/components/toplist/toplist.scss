@@ -1,0 +1,90 @@
+#toplist{
+	margin-bottom:.5rem;
+	.navbar{
+		position:relative;
+		height:2rem;
+		overflow: hidden;
+		img{
+			width:100%;
+		}
+		div{
+			position:absolute;
+			width:100%;
+			bottom: 0;
+			height:.5rem;
+			background: black;
+			opacity: 0.5;
+		}
+		h2{
+			color:white;
+			position:absolute;
+			width:100%;
+			bottom: 0;
+			height:.5rem;
+			line-height: .5rem
+		}
+	}
+	.toplistNavbar{
+		border-bottom: 1px solid #ccc;
+		ul{
+			display:flex;
+			justify-content: space-around;
+			overflow: hidden;
+			li{	
+				margin:.2rem;
+				flex:1;			
+				img{
+					width:100%;
+				}
+				p{
+					font-size: 14px;
+					height: 0.4rem;
+					line-height:0.4rem;
+				}
+			}
+		}
+	}
+	.detail{
+		li{
+			box-sizing: border-box;
+			width:100%;
+			padding:.2rem;
+			border-bottom: 1px solid #ccc;
+
+			a{
+				text-decoration: none;
+				color:black;
+				img{
+					float: left;
+					margin-right:.2rem;
+				}
+				.text{
+					text-align: left;
+					position: relative;
+					h3{
+					}
+					P{	
+						padding-right:.5rem;
+						margin-top:0.1rem;
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+					}
+					span{
+						display: block;
+						height:.3rem;
+						width:.3rem;
+						position:absolute;
+						right:0;
+						top:50%;
+						margin-top: -.15rem;
+						i{
+							font-size: .3rem;
+							color:#ccc;
+						}
+					}
+				}
+			}
+		}
+	}
+}
