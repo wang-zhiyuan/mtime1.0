@@ -1,10 +1,11 @@
-import Router,{Component} from 'react'
-import React from 'react'
+import React,{Component} from 'react'
+
 
 class Home extends Component{
 	render(){
 		return (
-			<div>Home
+			<div>
+			Home
 
 			{this.props.children}
 			</div>
