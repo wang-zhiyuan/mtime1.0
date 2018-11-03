@@ -1,5 +1,4 @@
-import Router,{Component} from 'react'
-import React from 'react'
+import React,{Component} from 'react'
 
 class Ticket extends Component{
 	render(){

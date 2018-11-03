@@ -1,5 +1,5 @@
-import Router,{Component} from 'react'
-import React from 'react'
+import React,{Component} from 'react'
+
 
 class Hot extends Component{
 	render(){
