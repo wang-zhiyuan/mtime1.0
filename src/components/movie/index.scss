@@ -1,0 +1,29 @@
+#movie{
+	.m_bg_img{
+		z-index:-1;
+		background-image:url('../../images/get.jpg');
+		background-size: 100% auto;
+	    height: 1.4rem;
+	    background-repeat: no-repeat;
+	    background-position: center top;
+	    position: relative;
+	    width: 100%;
+		p{
+			background-image:url('../../images/cinemainfo_bg.png');
+			background-repeat: no-repeat;
+		    background-size: auto 0.4rem;
+		    position: absolute;
+		    bottom:-1.1rem;
+		    z-index:10;
+		    height:1.4rem;
+		    width:100%
+		}
+	}
+	.movie_img{	
+		width:1.26rem;
+		height:1.89rem;	
+		img{
+			width:100%;
+		}
+	}
+}

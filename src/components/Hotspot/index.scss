@@ -1,0 +1,39 @@
+.hottitle{
+	padding: 0.06rem 0.18rem 0.18rem 0.18rem;
+}
+.hotspot{
+	padding: 0.06rem 0.18rem 0.18rem 0.18rem;
+	li{
+		height:0.96rem;
+		padding: 0.13rem 0 0.13em 0;
+		border-bottom: 1px solid #d8d8d8;
+		.imgleft{
+			float:left;
+			width:1.33rem;
+			height:0.96rem;
+			line-height:0.25rem;
+			margin-right: 0.12rem;
+			img{
+				width:100%;
+			}
+			span{
+				display:block;
+			}
+		}
+		.imgright{
+			width:1.93rem;
+			height:0.96rem;
+			margin-right: 0rem;
+		}
+		h3{
+			color:#333;
+		}
+		.fontsmole{
+			font-size:0.14rem;
+			color:#777;
+		}
+	}
+	li:last-child{
+		border:none;
+	}
+}

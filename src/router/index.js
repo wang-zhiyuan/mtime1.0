@@ -1,42 +1,37 @@
 import {BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom'
 import React from 'react'
-import Coming from '../components/coming'
-import Hot from '../components/hot'
+import Coming from '../components/Film/coming'
+import Hot from '../components/Film/hot'
+import Film from '../components/Film'
 import Movie from '../components/movie'
 import News from '../components/news'
 import Review from '../components/review'
 import Toplist from '../components/toplist'
 import Trailer from '../components/trailer'
+import Nowplaying from '../components/Nowplaying'
 import Find from '../find'
 import Home from '../home'
 import Mall from '../mall'
-import Search from '../mall/search'
 import Ticket from '../ticket'
-import Commerce from '../commerce'
-import CommerceList from '../commerce/commercelist'
+import User from '../components/user'
+import City from '../components/city'
 import App from '../App.js'
-
-
 
 var MyRouter = (
 	<Router>
 		<App>
 			<Switch>
-				<Route path='/home' render={()=>
-					<Home >
-						<Switch>				
-							<Route path='/home/coming' component={Coming}></Route>
-							<Route path='/home/hot' component={Hot}></Route>
-						</Switch>
-					</Home>
-				}></Route>
-				<Route path='/mall' render={(props)=>
-					<Mall {...props}>
-						<Switch>
-							<Route path='/mall/search' component={Search}></Route>
-						</Switch>	
-					</Mall>	
-				}></Route>				
+				{
+				// 	<Route path='/home' render={(props)=>
+				// <Home {...props}>
+				// 	<Switch>				
+				// 		<Route path='/home/coming' component={Coming}></Route>
+				// 		<Route path='/home/hot' component={Hot}></Route>
+				// 	</Switch>
+				// </Home>}></Route>
+				}
+				<Route path='/home' component={Home}></Route>				
+				<Route path='/mall' component={Mall}></Route>				
 				<Route path='/find' render={()=>
 					<Find>
 						<Switch>
@@ -47,14 +42,21 @@ var MyRouter = (
 						</Switch>
 					</Find>
 				}></Route>				
-				<Route path='/ticket' component={Ticket}></Route>				
-				<Route path='/commerce' render={(props)=>
-					<Commerce {...props}>
-						<Switch>
-							<Route path='/commerce/list' component={CommerceList}></Route>	
-						</Switch>			
-					</Commerce>
-				}></Route>				
+				<Route path="/film" render={()=>
+						<Film>
+							<Switch>
+							<Route path="/film/hot" component={Hot}/>
+							<Route path="/film/coming" component={Coming}/>
+							<Redirect from="/film" to="/film/hot"/>
+							</Switch>
+						</Film>
+				}/>
+				<Route path='/ticket' component={Ticket}></Route>
+				<Route path='/nowplaying' component={Nowplaying}></Route>
+				<Route path='/user' component={User}></Route>
+				<Route path='/city' component={City}></Route>
+				<Route path='/movie/:movieId' component={Movie}></Route>
+				<Redirect from="*" to="/home"/>				
 			</Switch>
 		</App>
 	</Router>

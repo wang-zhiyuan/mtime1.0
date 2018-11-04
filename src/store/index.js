@@ -1,19 +1,28 @@
-import { createStore,combineReducers } from 'redux'
-
-
-function commerceListReducer(prevState={},state){
-	switch(state.type){
-		case 'changeCommerceList':
-		return state.payload
+import {createStore,combineReducers} from 'redux';
+var cityTitleReducer = (prevState="大连",action={}) => {
+	var type = action.type;
+	switch(type){
+		case 'changeCityTitle':
+			return action.payload
 		default:
-		return prevState
+			return prevState
 	}
+	return prevState
 }
-
-const reducer = combineReducers({	
-	goodsList:commerceListReducer
+var cityListReducer = (prevState=[],action={}) => {
+	var type = action.type;
+	switch(type){
+		case 'changeCityList':
+			return [...prevState,...action.payload]
+		default:
+			return prevState
+	}
+	return prevState
+}
+var reducer = combineReducers({
+	cityTitle:cityTitleReducer,
+	cityList:cityListReducer
 })
+const store = createStore(reducer);
 
-
-const store  = createStore(reducer)
-export default store
+export default store;

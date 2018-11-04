@@ -1,5 +1,5 @@
-import React,{Component} from 'react'
-
+import Router,{Component} from 'react'
+import React from 'react'
 
 class News extends Component{
 	render(){

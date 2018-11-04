@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-
+import Scrooltop from './components/Scrooltop';
+import './components/Scrooltop/index.scss';
 
 class App extends Component {
   render() {
@@ -9,6 +9,7 @@ class App extends Component {
         {
           this.props.children
         }
+        <Scrooltop></Scrooltop>
       </div>
     );
   }
