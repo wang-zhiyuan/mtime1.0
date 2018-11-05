@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Router,{Component} from 'react'
 import React from 'react'
 import axios from 'axios'
@@ -106,5 +107,15 @@ class Toplist extends Component{
 			})
 		})
 	}
+=======
+import React,{Component,Router} from 'react'
+
+class Toplist extends Component{
+	render(){
+		return (
+			<div>Toplist</div>
+		)
+	}
+>>>>>>> fba8cb4ea3d0b30f243acfd77035dbe740406523
 }
 export default Toplist

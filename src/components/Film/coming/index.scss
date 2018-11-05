@@ -1,0 +1,168 @@
+#coming{
+    padding: 0.12rem 0rem 0.15rem 0.15rem;
+    .coming_bg{
+    	width:100%;
+    	height:1.05rem;
+    	background-image:url("../../../images/s11750210.jpg");
+    	background-repeat:no-repeat;
+    	background-size:cover;
+    }
+	h2{
+		
+	}
+	.mouth{
+		background: #fff;
+	    color: #777;
+	    position: absolute;
+	    left: 0;
+	    top: -0.8em;
+	    padding: 0 0.6rem 0 0.1rem;
+	}
+	.coming_li{
+		width:3.4rem !important;
+		height:1.89rem;
+		float:left;
+	    border: 1px solid #bbb;
+	    border-left: none;
+	    border-bottom: 0;
+	    padding: 0.15rem 0.12rem 0 0;
+	    position: relative;
+	    margin-right: 0.1rem;
+	    margin-top:0.2rem;
+		.upmovie_pic{
+			width:1.02rem;
+			height:1.53rem;
+			margin-right:0.1rem;
+			img{
+
+				width:100%;
+			}
+		}
+		.coming_left{
+			float:left;
+		}
+		.coming_right{
+			width:2.22rem;
+			height:1.03rem;
+			line-height:0.3rem;
+		}
+		h2{
+			color:#333;
+			font-size:0.2rem;
+		}
+		b{
+			color:#ff8600;
+			font-weight: normal;
+			
+		}
+		.coming_look{
+			font-size:0.14rem;
+		}
+		.coming_director{
+			font-size:0.14rem;
+		}
+		.coming_actor{
+			font-size:0.14rem;
+		}
+		.coming_radius{
+			float:left;
+			display:block;
+			width:0.9rem;
+			height:0.3rem;
+			background-color:#ff8600;
+			border-radius:0.4rem;
+			text-align:center;
+			line-height:0.3rem;
+			color:#fff;
+		}
+		.coming_isVideo{
+			width:0.9rem;
+			height:0.3rem;
+			background-color:#fff;
+			border-radius:0.4rem;
+			border:1px solid #659c0d;
+			text-align:center;
+			line-height:0.3rem;
+			color:#659c0d;
+		}
+			
+	}
+	.coming_moviecomings{
+		.coming_li1{
+			width:3.21rem;
+			height: 1.18rem;
+			padding:0.18rem 0 0.16rem 0;
+			border-bottom: 1px solid #d8d8d8;
+			margin-left:0.36rem;
+			position: relative;
+		}
+		.onmonth{
+			display: block;
+			width:3.57rem;
+			height: 0.16rem;
+			padding: 0.12rem 0 0.14rem 0;
+			border-bottom: 1px solid #d8d8d8;
+		}
+		.coming_image{
+			width:0.78rem;
+			height:1.18rem;
+			margin-right:0.1rem;
+			img{
+				width: 100%
+			}
+		}
+		.coming_left{
+			float:left;
+		}
+		.coming_right{
+			width:2.22rem;
+			height:1.03rem;
+			line-height:0.2rem;
+		}
+		h2{
+			color:#333;
+			font-size:0.2rem;
+		}
+		b{
+			color:#ff8600;
+			font-weight: normal;
+			
+		}
+		.coming_look{
+			font-size:0.14rem;
+		}
+		.coming_director{
+			font-size:0.14rem;
+		}
+		.coming_actor{
+			font-size:0.14rem;
+		}
+		.coming_radius{
+			float:left;
+			display:block;
+			width:0.9rem;
+			height:0.3rem;
+			background-color:#ff8600;
+			border-radius:0.4rem;
+			text-align:center;
+			line-height:0.3rem;
+			color:#fff;
+		}
+		.coming_isVideo{
+			width:0.9rem;
+			height:0.3rem;
+			background-color:#fff;
+			border-radius:0.4rem;
+			border:1px solid #659c0d;
+			text-align:center;
+			line-height:0.3rem;
+			color:#659c0d;
+		}
+		.coming_day{
+			position: absolute;
+		    left: -0.4rem;
+		    top: 0.15rem;
+		}
+	}
+	
+}

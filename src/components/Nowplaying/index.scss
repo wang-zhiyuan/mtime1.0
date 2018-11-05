@@ -1,0 +1,35 @@
+.nowplaying{
+	height:3.3rem;
+	padding: 0.06rem 0.18rem 0.18rem 0.18rem;
+	border-bottom: 1px solid #d8d8d8;
+	overflow:hidden;
+	li{
+		width:0.84rem;
+		height:1.75rem;
+		float:left;
+		text-align:center;
+		position:relative;
+		img{
+			width: 0.78rem;
+			height: 1.18rem;
+		}
+	}
+	.r_num{
+		.c_score{
+			vertical-align: middle;
+			font-style:normal ;
+			background: #659d0e;
+		    width: 0.24rem;
+		    height: 0.24rem;
+		    color: #fff;
+		    display: inline-block;
+		    overflow: hidden;
+		    line-height: 0.24rem;
+		    text-align: center;
+		    position:absolute;
+		    top:0.02rem;
+		    right:0.03rem;
+
+		}
+	}
+}

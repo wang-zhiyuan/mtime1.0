@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "antd": "^3.10.3",
+    "antd-mobile": "^2.2.6",
+>>>>>>> fba8cb4ea3d0b30f243acfd77035dbe740406523
     "axios": "^0.18.0",
     "http-proxy-middleware": "^0.19.0",
     "moment": "^2.22.2",
@@ -12,7 +17,13 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.5",
+<<<<<<< HEAD
     "sass-loader": "^7.1.0"
+=======
+    "redux": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "swiper": "^4.4.2"
+>>>>>>> fba8cb4ea3d0b30f243acfd77035dbe740406523
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,5 +1,6 @@
 import Router,{Component} from 'react'
 import React from 'react'
+<<<<<<< HEAD
 import axios from 'axios'
 import './review.scss'
 import Find from '../../find'
@@ -82,5 +83,14 @@ class Review extends Component{
 			})
 		})
 	}
+=======
+
+class Review extends Component{
+	render(){
+		return (
+			<div>Review</div>
+		)
+	}
+>>>>>>> fba8cb4ea3d0b30f243acfd77035dbe740406523
 }
 export default Review

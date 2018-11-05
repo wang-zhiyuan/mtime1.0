@@ -1,5 +1,6 @@
 import Router,{Component} from 'react'
 import React from 'react'
+<<<<<<< HEAD
 import axios from 'axios'
 import moment from 'moment'
 import './news.scss'
@@ -107,5 +108,14 @@ class News extends Component{
 			})
 		})
 	}
+=======
+
+class News extends Component{
+	render(){
+		return (
+			<div>News</div>
+		)
+	}
+>>>>>>> fba8cb4ea3d0b30f243acfd77035dbe740406523
 }
 export default News

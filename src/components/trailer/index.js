@@ -1,5 +1,6 @@
 import Router,{Component} from 'react'
 import React from 'react'
+<<<<<<< HEAD
 import axios from 'axios'
 import './trailer.scss'
 import Find from '../../find'
@@ -66,5 +67,14 @@ class Trailer extends Component{
 			})
 		})
 	}
+=======
+
+class Trailer extends Component{
+	render(){
+		return (
+			<div>Trailer</div>
+		)
+	}
+>>>>>>> fba8cb4ea3d0b30f243acfd77035dbe740406523
 }
 export default Trailer
